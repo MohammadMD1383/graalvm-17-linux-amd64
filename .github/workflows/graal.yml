@@ -17,7 +17,7 @@ jobs:
 
       - name: get latest release tag
         run: |
-          TAG=$(gh release list --repo ${{env.REPO}} --exclude-drafts --exclude-pre-releases --limit 1 | grep --ignore-case --only-matching --extended-regexp "vm-[0-9]+\.[0-9]+\.[0-9]+(\.[0-9]+)?")
+          TAG=$(gh release list --repo ${{env.REPO}} --exclude-drafts --limit 1 | grep --ignore-case --only-matching --extended-regexp "vm-[0-9]+\.[0-9]+\.[0-9]+(\.[0-9]+)?")
           echo "latest release tag: ${TAG}"
           echo "TAG=${TAG}" >> $GITHUB_ENV
 
