@@ -31,6 +31,13 @@ jobs:
         run: |
           tar -xvzf graalvm-ce-java17-linux-amd64-* --directory repo --strip-components=1
           
+      - name: configure lfs
+        run: |
+          cd repo
+          git lfs install
+          git lfs track "*"
+          git add .gitattributes
+          
       - name: push
         uses: EndBug/add-and-commit@v9.1.1  
         with:
