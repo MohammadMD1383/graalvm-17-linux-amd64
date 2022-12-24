@@ -29,7 +29,7 @@ jobs:
 
       - name: extract archive
         run: |
-          tar -xvzf graalvm-ce-java17-linux-amd64-* --directory repo
+          tar -xvzf graalvm-ce-java17-linux-amd64-* --directory repo --strip-components=1
           
       - name: push
         uses: EndBug/add-and-commit@v9.1.1  
