@@ -5,6 +5,7 @@ on:
   
 env:
   REPO: 'https://github.com/graalvm/graalvm-ce-builds'
+  GH_TOKEN: ${{github.token}}
 
 jobs:
   build:
