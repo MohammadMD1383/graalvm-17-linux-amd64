@@ -24,7 +24,7 @@ jobs:
 
       - name: download release archive
         run: |
-          gh release download ${{env.TAG}} --pattern 'graalvm-ce-java17-linux-amd64-*.tar.gz'
+          gh release download ${{env.TAG}} --pattern 'graalvm-ce-java17-linux-amd64-*.tar.gz' --repo ${{env.REPO}}
 
       - name: extract archive
         run: |
