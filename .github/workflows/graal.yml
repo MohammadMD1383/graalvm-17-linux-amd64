@@ -35,7 +35,7 @@ jobs:
         run: |
           cd repo
           git lfs install
-          git lfs track "*"
+          git lfs track "lib/*"
           git add .gitattributes
           
       - name: push
