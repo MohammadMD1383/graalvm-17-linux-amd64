@@ -1,0 +1,8 @@
+JAVA_VERSION="17.0.5"
+OS_NAME="linux"
+OS_ARCH="amd64"
+GRAALVM_VERSION="22.3.0"
+SOURCE="substratevm:2a0af49b3c8dfcc255992d3096aec02a81874c68"
+COMMIT_INFO={"substratevm": {"commit.committer": "Gilles Duboscq <gilles.m.duboscq@oracle.com>", "commit.committer-ts": 1666255929, "commit.rev": "2a0af49b3c8dfcc255992d3096aec02a81874c68"}}
+component_catalog="https://www.graalvm.org/component-catalog/v2/graal-updater-component-catalog-java17.properties|{ee=GraalVM Enterprise Edition}rest://gds.oracle.com/api/20220101/|gds://oca.opensource.oracle.com/gds/meta-data.json"
+GDS_PRODUCT_ID="D53FAE8052773FFAE0530F15000AA6C6"

@@ -1,0 +1,11 @@
+#Sun Dec 25 18:15:25 UTC 2022
+Bundle-Name=Native Image
+Bundle-RequireCapability-graalvm_version=22.3.0
+Bundle-RequireCapability-java_version=17
+Bundle-RequireCapability-os_arch=amd64
+Bundle-RequireCapability-os_name=linux
+Bundle-Symbolic-Name=org.graalvm.native-image
+Bundle-Version=22.3.0
+x-GraalVM-Component-Origin=https\://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/native-image-installable-svm-java17-linux-amd64-22.3.0.jar
+x-GraalVM-Serial=d1f5c58b65c57ad8a0c7da0c4569ce815ebf1ae503b0741ba1facf27b816d398
+x-GraalVM-Stability-Level=earlyadopter
